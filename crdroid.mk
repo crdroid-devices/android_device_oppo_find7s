@@ -15,13 +15,13 @@
 $(call inherit-product, device/oppo/find7s/find7s.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-PRODUCT_NAME := cm_find7s
+PRODUCT_NAME := crdroid_find7s
 PRODUCT_DEVICE := find7s
 PRODUCT_BRAND := OPPO
 PRODUCT_MANUFACTURER := OPPO
